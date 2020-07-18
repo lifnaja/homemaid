@@ -1,12 +1,11 @@
+import os
+from datetime import date
 from unittest.mock import MagicMock
 
 from django.core.files import File
 from django.test import TestCase
-import os
-from datetime import date
 
-
-from .models import Maid
+from ..models import Maid
 
 
 class TestMaid(TestCase):
